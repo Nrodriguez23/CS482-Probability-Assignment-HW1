@@ -53,7 +53,7 @@ plt.show()
 
 ptime = norm.ppf(ptime_norm, loc=mean_ptime, scale=std_dev_ptime)
 ak = poisson.ppf(ak_norm, 5)
-pp = poisson.ppf(pp_norm, 15)
+pp = poisson.ppf(pp_norm, 20)
 
 
 # Create histograms to visualize the transformed variables
